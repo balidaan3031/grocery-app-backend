@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run typecheck",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ]
+}
